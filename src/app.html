@@ -1,0 +1,69 @@
+<template>
+
+	<div class="top">
+		<div class="slds-box box slds-var-p-aroune_none slds-var-m-top_x-small slds-m-horizontal_none">
+			<lightning-layout>
+				<lightning-layout-item size="7">
+					<label name="header">Global Profile</label>
+				</lightning-layout-item>
+			</lightning-layout>
+		</div>
+		<div class="slds-col 4-of-12 slds-box slds-var-p-aroune_none slds-var-m-top_x-small slds-m-horizontal_none">
+			<lightning-layout multiple-rows>
+				<lightning-layout-item size="12">
+					<label name="gpid">Global Party ID:</label>
+				</lightning-layout-item>
+				<br />
+				<lightning-layout-item>
+					<label name="name">Full Name: </label>
+				</lightning-layout-item>
+			</lightning-layout>
+		</div>
+		<div class="slds-box slds-p-around_none slds-m-top_x-small slds-m-bottom_medium slds-m-horizontal_none">
+			<lightning-layout multiple-rows>
+				<lightning-layout-item size="6" padding="around-small">
+					<div class="custom-box phone slds-box slds-gutters_direct slds-p-around_medium slds-text-align_center">
+						<lightning-input type="radio" name="radio" data-name="radio-deselect" label="Phone: ">
+						</lightning-input>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</div>
+				</lightning-layout-item>
+				<lightning-layout-item size="6" padding="around-small">
+					<div class="custom-box slds-box slds-p-around_medium slds-text-align_left slds-gutters_direct">
+						<lightning-input type="radio" name="radio" data-name="radio-deselect" label="Mobile: ">
+						</lightning-input>
+					</div>
+					<div class="slds-box mobild slds-gutters_direct slds-p-around_medium slds-text-align_center">
+						<li class="slds-border_bottom">1234567898</li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</div>
+				</lightning-layout-item>
+				<lightning-layout-item size="6" padding="around-small">
+					<div class="custom-box email slds-box slds-gutters_direct slds-p-around_medium">
+						<lightning-input type="radio" name="radio" data-name="radio-deselect" label="Email: ">
+						</lightning-input>
+						<div class="slds-box mobild slds-gutters_direct slds-p-around_medium slds-text-align_center">
+							<li></li>
+						</div>
+				</lightning-layout-item>
+		</div>
+		</lightning-layout-item>
+		<lightning-layout-item size="6" padding="around-small">
+			<div class="custom-box address slds-gutters_direct slds-p-around_medium slds-text-align_center">
+				<lightning-input type="radio" name="radio" data-name="radio-deselect" label="Address: ">
+				</lightning-input>
+				<li></li>
+				<li></li>
+			</div>
+		</lightning-layout-item>
+
+		</lightning-layout>
+	</div>
+	</div>
+
+</template>
